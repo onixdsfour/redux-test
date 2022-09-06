@@ -1,11 +1,12 @@
 
 import './App.css';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+
+import TestComponent from './components/testComponent';
 
 function App() {
   return (
     <div className="App">
-      
+        <TestComponent></TestComponent>
     </div>
   );
 }
